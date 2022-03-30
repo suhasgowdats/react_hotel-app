@@ -1,0 +1,12 @@
+.footer{
+    border-top: 2px solid gray;
+    padding: 2px;
+    background-color: rgb(202, 200, 200);
+    position: sticky;
+}
+
+.footer>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}

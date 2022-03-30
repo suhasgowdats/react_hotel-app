@@ -1,0 +1,35 @@
+.banner{
+    display: flex;
+}
+.black-label{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width:30% ;
+}
+.black-items{
+    padding-top: 50px;
+   
+}
+
+.btn{
+    background-color: red;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:rgb(109, 0, 0);
+    cursor: pointer;
+    border-color:rgb(109, 0, 0) ;
+}
+.image{
+    width: 70%;
+    height: 200px;
+}
+.img{
+    object-fit: fill;
+    height: 200px;
+    width: 100%;
+}

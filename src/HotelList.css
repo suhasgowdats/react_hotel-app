@@ -1,0 +1,42 @@
+.to-det{
+    text-align: left;
+}
+.to-det>button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+}
+.to-det>button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.hotel-list{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow:0 4px 8px 2px ;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 10px;
+    width: 96%;
+    margin-left: 20px;
+}
+.hotel-list:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.hotel-list>img{
+    object-fit: fill;
+    padding-left: 10px;
+    width: 30%;
+}
+.hotel-info{
+    width: 70%;
+    text-align: left;
+    padding-left: 20px;
+}
+.rate{
+    text-align: right;
+    padding-right: 50px;
+}

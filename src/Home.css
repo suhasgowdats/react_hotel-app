@@ -1,0 +1,9 @@
+.home-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: auto;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
